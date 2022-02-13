@@ -1,10 +1,10 @@
-require_relative 'enumrable'
+require_relative 'enumerable'
 
 class MyList
-    include MyEnumerable
-    def initialize(*list)
-        @list = list
-    end
+  include MyEnumerable
+  def initialize(*list)
+    @list = list
+  end
 end
 
 # Verify solution:
